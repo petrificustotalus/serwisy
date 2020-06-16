@@ -1,0 +1,41 @@
+$mainBlue: (47, 85, 114);
+$mainOrange: (57, 214, 219);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#333
+}
+
+a {
+    color: $mainOrange;
+}
+
+p {
+    color: (57, 214, 219);
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.carousel-item {
+  height: 650px;
+  width: cover; }
+
+#showcase p {
+  font-weight: 100;
+  font-size: 30pxpx;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1); }
+
+.carousel-image-1 {
+  background-image: url(../css/image/8.jpg); }
+
+.carousel-image-2 {
+  background-image: url(../css/image/9.jpg); }
+
+.carousel-image-3 {
+  background-image: url(../css/image/10.jpg); }
+
+.carousel-image-4 {
+  background-image: url(../css/image/8.jpg); }

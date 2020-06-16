@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="sprzęt medyczny, katalog sprzętu, katalog sprzętu medycznego, 
+        instrumentarium chirurgiczne, stetoskopy, sprzęt laboratoryjny, sprzęt stomatologiczny, sprzęt dentystyczny">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Medivisor</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnPSoz5men6MCuUAM5pkN0aBIv44SdPvo&callback=initMap"
+        type="text/javascript"></script>
+        <script src="./app.js"></script>
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Medivisor</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="onas.html" class="nav-link">O firmie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="katalog.html" class="nav-link">Katalog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="kontakt.html" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- INFORMACJE -->
+
+        <div class="page-section-informacje">
+            <div class="ramka-informacje">
+                <div class="page-section">
+                    <div class="ramka-podinformacje">
+                        <div class="wrapper">
+                            <h2 class="section-title section-title-extra-margin-top">Kontakt</h2>
+                            <div class="kontakt-box">
+                                <h4>Adres</h4>
+                                <p>ul. Nowogrodzka 155/5</p>
+                                <p>05-555 Białystok</p>
+                            </div>
+                            <div class="kontakt-box">
+                                <h4>E-mail</h4>
+                                <p>medivisor@takimail.com</p>
+                            </div>
+                            <div class="kontakt-box">
+                                <h4>Telefon</h4>
+                                <p>600-600-600</p>
+                            </div>
+                            <div id=map></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer id="main-footer" class="page-section--blue">
+            <div class="wrapper">
+                <div class="py-4">
+                    <p class="ilnline-element">&copy 2020 | Natalia Nowak & Sylwia Kanoza </p>
+                    <button class="btn btn-primary btn-footer" data-toggle="modal"
+                    data-target="#contactModal">Skontaktuj się z nami</button>
+                </div>
+            </div>
+        </footer>
+
+        <!-- CONTACT MODAL -->
+
+        <div class="modal fade text-dark" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modal-header-primary">
+                        <h5 class="modal-title" id="contactModalTitle">Skontaktuj się z nami</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Imię i nazwisko</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Twoja wiadomość</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary btn-block">Wyślij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

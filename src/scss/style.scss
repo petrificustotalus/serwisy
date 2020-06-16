@@ -1,0 +1,35 @@
+.navbar{
+    .nav-link{
+        font-size: 18px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+.carousel-item{
+    height: 600px;
+    width: cover;
+
+}
+
+#showcase p{
+    font-weight: 100;
+    font-size: 30pxpx;
+    text-shadow: 2px 2px 0 rgba(0,0,0,.1)
+}
+
+.carousel-image-1{
+    background-image: url(../image/1.jpg);
+}
+
+.carousel-image-2{
+    background-image: url(../image/2.jpg);
+}
+
+.carousel-image-3{
+    background-image: url(../image/3.jpg);
+}
+
+.carousel-image-4{
+    background-image: url(../image/4.jpg);
+}

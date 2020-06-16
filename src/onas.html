@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Medivisor</title>
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Medivisor</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="onas.html" class="nav-link">O firmie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="katalog.html" class="nav-link">Katalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="kontakt.html" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- O NAS -->
+
+        <div class="page-section-onas">
+            <div class="ramka-onas">
+                <div class="page-section">
+                    <div class="ramka-podonas">
+                        <div class="wrapper">
+                            <h2 class="section-title section-title-margin-bottom">O Firmie</h2>
+                            <p>Czym się zajmujemy?
+                                Naszym głównym celem jest sprawienie, aby życie stało się przyjemniejsze. Uważamy, że prowadzenie działalności związanej z szeroko pojętą medycyną jest wystarczająco ciężkie, by je jeszcze bardziej komplikować. Gromadzimy tysiące produktów w jednym miejscu, tak, aby nasi klienci mogli swobodnie znaleźć wszystko czego potrzebują bez konieczności opuszczania katalogu i szukania w innych miejscach. Nasza wysoce doświadczona załoga zawsze dba o to, aby prezentowane produkty były jak najwyższej jakości i w jak najlepszych cenach</p>
+                        </div>
+                    </div>
+                    <div class="ramka-podonas">
+                        <div class="wrapper">
+                            <h2 class="section-title section-title-margin-bottom ">Aplikuj do naszego zespołu</h2>
+                            <form role="form">
+                                <div class="form-group">
+                                  <label for="email">Adres e-mail:</label>
+                                  <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                                  <div class="invalid-feedback">Pole wymagane.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Wybrane stanowisko</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Junior Frontend Developer</option>
+                                      <option>Asystent Klienta</option>
+                                      <option>Specjalista od spraw marketingu</option>
+                                      <option>Project Menager</option>
+                                      <option>Senior Python Developer</option>
+                                    </select>
+                                  </div>
+                                <div class="form-group">
+                                  <label for="pwd">Imię:</label>
+                                  <input type="name" class="form-control" id="Imię" placeholder="Imię" required>
+                                  <div class="invalid-feedback">Pole wymagane.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Nazwisko:</label>
+                                    <input type="name" class="form-control" id="Passworld" placeholder="Nazwisko" required>
+                                    <div class="invalid-feedback">Pole wymagane.</div>
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlFile1">Example file input</label>
+                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </form>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                      <input class="form-check-input" type="checkbox" name="remember" required> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+                                      <div class="valid-feedback">Valid.</div>
+                                      <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                    </label>
+                                  </div>
+                                <button type="submit" class="btn btn-primary">Wyślij</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- APLIKUJ -->
+
+
+        
+
+        <!-- FOOTER -->
+
+        <footer id="main-footer" class="page-section--blue">
+            <div class="wrapper">
+                <div class="py-4">
+                    <p class="ilnline-element">&copy 2020 | Natalia Nowak & Sylwia Kanoza </p>
+                    <button class="btn btn-primary btn-footer" data-toggle="modal"
+                    data-target="#contactModal">Skontaktuj się z nami</button>
+                </div>
+            </div>
+        </footer>
+
+        <!-- CONTACT MODAL -->
+
+        <div class="modal fade text-dark" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modal-header-primary">
+                        <h5 class="modal-title" id="contactModalTitle">Skontaktuj się z nami</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Imię i nazwisko</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Twoja wiadomość</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary btn-block">Wyślij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
