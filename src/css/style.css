@@ -355,11 +355,6 @@ html {
   padding: 0 4px;
 }
 
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
 
 
 .column img {
@@ -380,6 +375,12 @@ img#link-img:hover {
   opacity : 0.70;
   filter : alpha(opacity=70);
 
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -409,7 +410,7 @@ img#link-img:hover {
   background-image: url(../css/image/background2.jpg);
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 .ramka-informacje {
